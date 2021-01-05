@@ -26,5 +26,13 @@ public class NumberWizard : MonoBehaviour
         {
             Debug.Log("Up Arrow key was pressed.");
         }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            Debug.Log("Down Arrow key was pressed.");
+        }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Debug.Log("Return key was pressed.");
+        }
     }
 }
